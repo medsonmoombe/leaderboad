@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
     padding-top: 30px;
     position: relative;
     top: -9px;
-    left: -136px;
+    left: -186px;
     font-size: 40px;
 }
 
@@ -35,7 +35,7 @@ h1 {
     margin: auto;
     justify-content: center;
     align-items: center;
-    width: inherit;
+    width: 100%;
     gap: 25px;
 }
 
@@ -55,11 +55,31 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 50px;
+}
+
+.scores {
+    list-style: none;
 }
 
 .display-section {
-    list-style: none;
+    border: 1px solid black;
+    padding: 10px;
+    width: inherit;
+    margin-top: 22px;
+}
+
+.refresh-btn {
+    padding: 4px;
+    border: 0;
+    box-shadow: 4px 4px 4px 4px;
+}
+
+/* .scores:nth-child(even) { background-color: white; }
+.scores:nth-child(odd) { background-color: grey; } */
+
+h3 {
+    font-size: 28px;
 }
 
 
@@ -68,6 +88,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 48px;
 }
 
 .input-boxes {
@@ -76,4 +97,16 @@ h1 {
     align-items: center;
     flex-direction: column;
     gap: 10px;
+}
+
+input {
+    outline: none;
+    padding: 2px;
+}
+
+#submit-btn {
+    padding: 4px;
+    border: 0;
+    box-shadow: 4px 1px 4px 2px;
+    margin-left: 124px;
 }
