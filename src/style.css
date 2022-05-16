@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 
 body {
     list-style: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-content {
@@ -64,9 +66,12 @@ h1 {
 
 .display-section {
     border: 1px solid black;
-    padding: 10px;
     width: inherit;
     margin-top: 22px;
+}
+
+.score-item {
+    padding: 2px;
 }
 
 .refresh-btn {
@@ -75,8 +80,8 @@ h1 {
     box-shadow: 4px 4px 4px 4px;
 }
 
-/* .scores:nth-child(even) { background-color: white; }
-.scores:nth-child(odd) { background-color: grey; } */
+.score-item:nth-child(odd) { background-color: lightgrey; } 
+.score-item:nth-child(2n) { background-color: white; } 
 
 h3 {
     font-size: 28px;
