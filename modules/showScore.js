@@ -1,17 +1,16 @@
-import scores from "./scores.js";
+import scores from './scores.js';
 
-const displayScores = document.querySelector(".scores");
+const displayScores = document.querySelector('.scores');
 const showScores = () => {
- 
-scores.forEach((goal, index)=> {
-   let listTag ='';
+  scores.forEach((goal, index) => {
+    let listTag = '';
     listTag = `
     <li class="score-item" id="${index}">${goal.name}: ${goal.score}</li>
 `;
-displayScores.innerHTML += listTag;
-});
+    displayScores.innerHTML += listTag;
+  });
 
-return displayScores;
+  return displayScores;
 };
 
 export default showScores;

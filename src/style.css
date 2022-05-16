@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-content {
@@ -18,100 +19,100 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
   /* border: 1px solid black; */
 }
 
 h1 {
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 30px;
-    position: relative;
-    top: -9px;
-    left: -186px;
-    font-size: 40px;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 30px;
+  position: relative;
+  top: -9px;
+  left: -186px;
+  font-size: 40px;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 25px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
 }
 
 .column1 {
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 100px;
-} 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
 
 .column2 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .first-line {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .scores {
-    list-style: none;
+  list-style: none;
 }
 
 .display-section {
-    border: 1px solid black;
-    width: inherit;
-    margin-top: 22px;
+  border: 1px solid black;
+  width: inherit;
+  margin-top: 22px;
 }
 
 .score-item {
-    padding: 2px;
+  padding: 2px;
 }
 
 .refresh-btn {
-    padding: 4px;
-    border: 0;
-    box-shadow: 4px 4px 4px 4px;
+  padding: 4px;
+  border: 0;
+  box-shadow: 4px 4px 4px 4px;
 }
 
-.score-item:nth-child(odd) { background-color: lightgrey; } 
-.score-item:nth-child(2n) { background-color: white; } 
+.score-item:nth-child(odd) { background-color: lightgrey; }
+.score-item:nth-child(2n) { background-color: white; }
 
 h3 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
-
 .adding-data {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 48px;
 }
 
 .input-boxes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 input {
-    outline: none;
-    padding: 2px;
+  outline: none;
+  padding: 2px;
 }
 
 #submit-btn {
-    padding: 4px;
-    border: 0;
-    box-shadow: 4px 1px 4px 2px;
-    margin-left: 124px;
+  padding: 4px;
+  border: 0;
+  box-shadow: 4px 1px 4px 2px;
+  margin-left: 124px;
 }

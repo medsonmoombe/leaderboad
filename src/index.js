@@ -1,4 +1,5 @@
-import "./style.css";
+import './style.css';
 
-import showScores from "../modules/showScore.js";
+import showScores from '../modules/showScore.js';
+
 document.addEventListener('DOMContentLoaded', showScores);
