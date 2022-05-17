@@ -13,9 +13,6 @@
 - CSS
 - JAVASCRIPT
 
-## Live Demo 
-[Live Demo Link](https://medsonmoombe.github.io/leaderboad/dist)
-
 
 
 ## Getting Started
@@ -29,10 +26,6 @@ To get a local copy up and running follow these simple example steps.
 - Code editor
 
 ### Setup
-```bash
-git clone (https://github.com/medsonmoombe/leaderboad)
-cd leaderboad-hit-Api
-```
 
 
 ```bash
