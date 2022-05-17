@@ -82,8 +82,9 @@ h1 {
   box-shadow: 4px 4px 4px 4px;
 }
 
-.score-item:nth-child(odd) { background-color: lightgrey; }
-.score-item:nth-child(2n) { background-color: white; }
+.recent-score-list ul li:nth-child(even) {
+  background: rgba(227, 227, 227, 0.836);
+}
 
 h3 {
   font-size: 28px;

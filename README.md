@@ -14,7 +14,7 @@
 - JAVASCRIPT
 
 ## Live Demo (if available)
-[Live Demo Link](https://medsonmoombe.github.io/leaderboad/)
+[Live Demo Link](https://medsonmoombe.github.io/leaderboad/dist)
 
 
 
@@ -29,10 +29,6 @@ To get a local copy up and running follow these simple example steps.
 - Code editor
 
 ### Setup
-```bash
-git clone (https://github.com/medsonmoombe/leaderboad)
-cd leaderboad-1
-```
 
 
 ```bash
