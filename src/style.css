@@ -9,28 +9,31 @@
 body {
   list-style: none;
   font-family: 'Roboto', sans-serif;
+  background: darkcyan;
 }
 
 .main-content {
-  width: 80%;
+  width: 70%;
   margin: auto;
   margin-top: 10%;
-  height: 30rem;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* border: 1px solid black; */
+  background-color: darkcyan;
+  box-shadow: 13px 9px 42px 10px;
+  border-radius: 8px;
+  padding: 10px;
 }
 
 h1 {
+  color: #000;
   text-align: center;
-  padding-left: 20px;
-  padding-top: 30px;
   position: relative;
-  top: -9px;
-  left: -186px;
+  left: -160px;
   font-size: 40px;
+  padding-left: -52px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content {
@@ -41,29 +44,36 @@ h1 {
   align-items: center;
   width: 100%;
   gap: 25px;
+  position: relative;
 }
 
 .column1 {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
+  justify-content: space-evenly;
+  width: inherit;
+  padding: 11px;
+}
+
+h2 {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
 }
 
 .column2 {
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 
 .first-line {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 50px;
 }
 
 .scores {
   list-style: none;
+  text-transform: capitalize;
 }
 
 .display-section {
@@ -72,22 +82,36 @@ h1 {
   margin-top: 22px;
 }
 
+.display-column2 {
+  width: 50%;
+}
+
 .score-item {
   padding: 2px;
+  padding: 5px;
+  color: #eee;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
 }
 
 .refresh-btn {
   padding: 4px;
   border: 0;
   box-shadow: 4px 4px 4px 4px;
+  background: bottom;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .recent-score-list ul li:nth-child(even) {
-  background: rgba(227, 227, 227, 0.836);
+  background: linear-gradient(45deg, black, transparent);
+  border-radius: 8px;
 }
 
 h3 {
   font-size: 28px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
 }
 
 .adding-data {
@@ -96,6 +120,8 @@ h3 {
   align-items: center;
   flex-direction: column;
   gap: 48px;
+  width: 33%;
+  margin-top: inherit;
 }
 
 .input-boxes {
@@ -109,11 +135,26 @@ h3 {
 input {
   outline: none;
   padding: 2px;
+  width: 100%;
+  height: auto;
+  outline: none;
+  border-radius: 10px;
+  background: linear-gradient(45deg, black, transparent);
+}
+
+::placeholder {
+  color: #fff;
+  font-weight: 500;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
 }
 
 #submit-btn {
   padding: 4px;
   border: 0;
-  box-shadow: 4px 1px 4px 2px;
-  margin-left: 124px;
+  box-shadow: 4px 4px 4px 4px;
+  background: bottom;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  align-self: flex-end;
 }
