@@ -6,7 +6,7 @@
 
 
 > Description the project.
-> this project is about the leaderboad i did during Microverse to build a website for adding and removing the scores using ES6 modules and webpak.Done using HTML, CSS and JAVASCRIPT
+> this project is about the leaderboad i did during Microverse to build a website for adding Data to the API and fetching it to display in the innerHtml using ES6 modules and webpak.Done using HTML, CSS and JAVASCRIPT
 
 
 ## Built With
