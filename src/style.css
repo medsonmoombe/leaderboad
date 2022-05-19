@@ -139,6 +139,9 @@ input {
   outline: none;
   border-radius: 10px;
   background: linear-gradient(45deg, black, transparent);
+  color: #fff;
+  height: 33px;
+  font-size: 16px;
 }
 
 ::placeholder {
